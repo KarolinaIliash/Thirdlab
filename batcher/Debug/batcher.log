@@ -1,0 +1,24 @@
+﻿Build started 22.01.2017 16:03:01.
+     1>Project "C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\batcher\batcher.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt batcher.cpp
+         batcher.cpp
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(38): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(64): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(65): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(68): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(117): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(126): warning C4018: '>': signed/unsigned mismatch
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(129): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\администратор\documents\visual studio 2015\projects\batcher\batcher\batcher.cpp(141): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\Debug\batcher.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\Debug\batcher.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\Debug\batcher.lib" /MACHINE:X86 Debug\batcher.obj
+         Debug\comp_mas_test.obj
+         Debug\parallel_test.obj
+         Debug\sort_test.obj
+         batcher.vcxproj -> C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\Debug\batcher.exe
+     1>Done Building Project "C:\Users\Администратор\Documents\Visual Studio 2015\Projects\batcher\batcher\batcher.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.73
